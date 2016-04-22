@@ -1,1 +1,7 @@
-# salva-et-serva
+```php
+<?= 
+Lord::answerMe()
+    ->healThe($myHtml)
+    ->amen(); 
+?>
+```
