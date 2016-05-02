@@ -45,7 +45,9 @@ final class Lord
 
     public function __construct()
     {
-        throw new \LogicException('Ask, and it will be given to you;');
+        if (self::$triunity !== null) {
+            throw new \LogicException('Ask, and it will be given to you;');
+        }
     }
 
     public function __clone()
