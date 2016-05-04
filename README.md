@@ -6,7 +6,7 @@ Lord::answerMe()
 ?>
 ```
 
-or rubyversion
+or ruby religion:
 
 ```ruby
 Lord::instance.healThe("Do my string reverse").amen
