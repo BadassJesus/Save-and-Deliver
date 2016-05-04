@@ -5,3 +5,9 @@ Lord::answerMe()
     ->amen(); 
 ?>
 ```
+
+or rubyversion
+
+```ruby
+Lord::instance.healThe("Do my string reverse").amen
+```
